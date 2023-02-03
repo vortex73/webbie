@@ -5,6 +5,7 @@
 /* Definition of style of a class*/
 .global {
   color:white;
+  font-family:"Calibri Light"; 
 }
 
 /* Definition of style of an ID. USE IDs SPARINGLY*/
@@ -22,3 +23,12 @@
 .two {
   /*unique details*/
 }
+/*Chainsing selectors.*/ 
+.sel1.sel2 {
+  /*Looks for any item with both of these selectors*/
+}
+.sel1#sel2 {
+  /*also works for an id + class combination*/
+}
+/*NOTE: This method doesnt work for type selecors like div & p and these can't be chained 8/
+
