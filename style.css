@@ -1,11 +1,13 @@
 * {
   background: black;
+  border: 1px solid red;
 }
 
 /* Definition of style of a class*/
 .global {
   color:white;
   font-family:"Calibri Light"; 
+  text-align:center;
 }
 
 /* Definition of style of an ID. USE IDs SPARINGLY*/
