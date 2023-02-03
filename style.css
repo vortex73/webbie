@@ -2,6 +2,23 @@
   background: black;
 }
 
+/* Definition of style of a class*/
 .global {
   color:white;
+}
+
+/* Definition of style of an ID. USE IDs SPARINGLY*/
+#test {
+  color:purple;
+}
+/*incase 2 or more selectors have same or overlapping details then we can group the common ones and define the unique ones later*/
+.one
+.two {
+  /* all the common details*/
+}
+.one{
+  /*unique details*/
+}
+.two {
+  /*unique details*/
 }
