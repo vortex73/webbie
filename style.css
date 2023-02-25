@@ -18,11 +18,11 @@ body {
   flex-direction: column;
 }
 .but{
+  width:150px;
+  justify-content: center;
   display:flex;
   color:#F9FAF8;
   font-size: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
   background-color: #3882F6;
   border-radius:10px;
   margin-right:250px;
@@ -35,8 +35,46 @@ body {
 .headd{
   display: flex;
   margin-left:90px;
+  margin-right:50px;
   font-size: 48px;
   font-weight: 900;
+}
+.text{
+  display:flex;
+  margin-top: -30px;
+  width:170px;
+  justify-content:center;
+  padding:20px;
+  color:black;
+
+}
+.mega{
+  display:flex;
+  flex-direction:column;
+  background-color: #E5E7EB;
+  margin-top:50px;
+  margin-left:-10px;
+  margin-right: -10px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  padding-left:80px;
+  /*! margin-top:; */
+  margin-left:-10px;
+  margin-right:-10px;
+  padding: 10px;
+  background-color: #E5E7EB;
+}
+.inner{
+  height:120px;
+  width:120px;
+  display:flex;
+  flex-direction:column;
+  border-radius:15px;
+  margin:20px;
+  padding: 20px;
+  border: 3px solid #3882F6;
 }
 .bod{
   display:flex;
