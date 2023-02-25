@@ -39,22 +39,40 @@ body {
   font-size: 48px;
   font-weight: 900;
 }
-.text{
+.text,
+.txt{
   display:flex;
-  margin-top: -30px;
-  width:170px;
   justify-content:center;
-  padding:20px;
+
   color:black;
+}
+.text{
+  padding:20px;
+  width:170px;
+  margin-top:-30px;
+}
+.txt{
+  align-items: center;
+  font-style: italic;
+  font-weight:200;
+  flex:1;
 
 }
+.quote{
+  display:flex;
+  background-color:#E5E7EB;
+  height:300px;
+  padding: 50px;
+  justify-content: center;
+}
+
 .mega{
   display:flex;
   flex-direction:column;
-  background-color: #E5E7EB;
+  background-color: white;
   margin-top:50px;
   margin-left:-10px;
-  margin-right: -10px;
+  margin-right: -100px;
 }
 .info{
   display: flex;
@@ -64,7 +82,7 @@ body {
   margin-left:-10px;
   margin-right:-10px;
   padding: 10px;
-  background-color: #E5E7EB;
+  background-color: white;
 }
 .inner{
   height:120px;
